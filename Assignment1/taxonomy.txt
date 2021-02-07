@@ -1,0 +1,32 @@
+%Kushal Dalal (kdalal) - 500828585
+%Parth Patel (p13patel) - 500893723
+%Hitarth Chudgar (hitarth.chudgar) - 500888845
+
+?- leaf(tabby).
+Yes (0.00s cpu)
+?- leaf(fish).
+No (0.00s cpu)
+
+?- sibling(dog, cat).
+Yes (0.00s cpu)
+?- sibling(chicken, shark).
+No (0.00s cpu)
+
+?- grandparent(tabby, mammal).
+Yes (0.00s cpu)
+?- grandparent(tabby, robin).
+No (0.00s cpu)
+
+?- isa(robin, bird).
+Yes (0.00s cpu, solution 1, maybe more)
+?- isa(robin, animal).
+Yes (0.00s cpu, solution 1, maybe more)
+?- isa(cat, dog).
+No (0.00s cpu)
+?- isa(mammal, mammal).
+Yes (0.00s cpu, solution 1, maybe more)
+
+?- mostSpecificSubsumer(poodle, cat, mammal).
+Yes (0.00s cpu, solution 1, maybe more)
+?- mostSpecificSubsumer(retriver, robin, dog).
+No (0.00s cpu)

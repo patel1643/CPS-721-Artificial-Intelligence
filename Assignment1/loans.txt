@@ -1,0 +1,25 @@
+%Kushal Dalal (kdalal) - 500828585
+%Parth Patel (p13patel) - 500893723
+%Hitarth Chudgar (hitarth.chudgar) - 500888845
+
+?- risk(1, Class).
+Class = high_risk
+Yes (0.00s cpu, solution 1, maybe more)
+?- risk(2, Class).
+Class = high_risk
+Yes (0.00s cpu, solution 1, maybe more)
+?- risk(3, Class).
+Class = moderate_risk
+Yes (0.00s cpu)
+?- risk(4, Class).
+Class = high_risk
+Yes (0.00s cpu, solution 1, maybe more)
+?- risk(5, Class).
+Class = low_risk
+Yes (0.00s cpu)
+?- risk(6, Class).
+Class = low_risk
+Yes (0.00s cpu, solution 1, maybe more)
+?- risk(7, Class).
+Class = high_risk
+Yes (0.00s cpu, solution 1, maybe more)
